@@ -86,7 +86,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 0.1rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     border-bottom-left-radius: 1rem;
     /* border-top-right-radius: 1rem; */
 }
