@@ -8,7 +8,7 @@ hr {
 }
 
 :root {
-    --primary-color: #1d4ed8;
+    --primary-color: #ea580c;
 }
 
 .container {
@@ -35,4 +35,13 @@ hr {
     color: var(--primary-color);
     border-radius: 0.7rem;
     border: 1px solid var(--primary-color);
+}
+
+.list-non-bullets {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem
 }
