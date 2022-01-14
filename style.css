@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 body {
     font-family: 'Nunito', sans-serif;
-    margin: auto;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 hr {
