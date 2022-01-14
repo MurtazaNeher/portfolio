@@ -75,6 +75,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    display: block;
 }
 
 .hero .hero-img {
