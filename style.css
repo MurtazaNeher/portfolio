@@ -139,7 +139,7 @@ h1{
 }
 
 .hero .hero-img {
-  max-width: 80%;
+  max-width: 70%;
   width: 550px;
   display: block;
   margin: auto;
@@ -213,6 +213,7 @@ h1{
   border-radius: 1rem;
   text-align: center;
   margin: 3rem auto;
+  width: 100%;
 }
 .showcase-list h1 {
   margin: 0.5rem;
@@ -230,7 +231,7 @@ h1{
 
 @media (max-width: 900px) {
   body {
-    max-width: 95%;
+    max-width: 100%;
     width: 100%;
   }
 
@@ -251,54 +252,49 @@ h1{
 /* buttons */
 
 #btn-Primary {
-    background: var(--primary-color);
-    font-family: inherit;
-    padding: 0.6em 1.1em;
-    font-weight: 900;
-    font-size: 13px;
-    border: 3px solid black;
-    border-radius: 1.3rem;
-    box-shadow: 0.1em 0.1em;
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-weight: bold;
+    width: 95px;
+    height: 30px;
+    border-radius: 8px;
+    /* padding: 0.3rem 1.3rem; */
+    border: 2px solid rgba(0, 0, 0, 0.911);
+
    }
    
    #btn-Primary:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em;
     background-color: white;
+    color: black;
     cursor: pointer;
    }
-   
-   #btn-Primary :active {
-    transform: translate(0.05em, 0.05em);
-    box-shadow: 0.05em 0.05em;
-   }
-
 
    #btn-Secondary {
-    background: var(--dark-gray);
-    font-family: inherit;
-    padding: 0.6em 1.1em;
-    font-weight: 900;
-    font-size: 12px;
-    border: 2px solid black;
-    border-radius: 1.3rem;
-    box-shadow: 0.1em 0.1em;
-    margin-top: 1rem;
+    background-color
+    :var(--off-white);
+    font-size: 15px;
+    font-weight: bold;
+    width: 90;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    /* padding: 0.3rem 1.3rem; */
+    border: 2px solid rgba(0, 0, 0, 0.911);
+
    }
    
    #btn-Secondary:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em;
-
+    background-color: white;
+    color: black;
+    cursor: pointer;
    }
    
-   #btn-Secondary :active {
-    transform: translate(0.05em, 0.05em);
-    box-shadow: 0.05em 0.05em;
-   }
 
 
-/* From cssbuttons.io by @alexmaracinaru */
 #btn-Nav {
     position: relative;
     margin: auto;
@@ -341,19 +337,26 @@ h1{
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
+    cursor:pointer;
+
    }
    
    #btn-Nav:hover:before {
     width: 100%;
     background: white;
-   }
+    cursor:pointer;
+     }
    
    #btn-Nav:hover svg {
     transform: translateX(0);
+    cursor:pointer;
+
    }
    
    #btn-Nav:active {
     transform: scale(0.95);
+    cursor:pointer;
+
    }
 
 /* Social Media Buttons */
