@@ -265,8 +265,6 @@ h1 {
         transition: all 0.5s;
         z-index: 1;
         display: inline;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
         font-weight: 900;
