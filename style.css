@@ -239,47 +239,6 @@ h1 {
     padding-bottom: 6rem;
 }
 
-@media (max-width: 900px) {
-    body {
-        max-width: 100%;
-        width: 100%;
-    }
-    .list-item-inline {
-        display: inline;
-        padding: 0rem;
-    }
-    .container-center {
-        width: auto;
-    }
-    .link-primary {
-        display: block;
-    }
-    .btn-S {
-        font-size: 25px;
-        cursor: pointer;
-        border: none;
-        outline: none;
-        background: transparent;
-        color: white;
-        position: center;
-        transition: all 0.5s;
-        z-index: 1;
-        display: inline;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        font-weight: 900;
-    }
-    .btn-S:hover {
-        color: black;
-    }
-    .nameSocial {
-        font-size: 15px;
-        font-weight: 100;
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 
 /* buttons */
 
@@ -400,8 +359,8 @@ h1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 900;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    /* padding-left: 0.5rem;
+    padding-right: 0.5rem; */
 }
 
 .btn-S:hover {
@@ -413,4 +372,45 @@ h1 {
     font-weight: 100;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 900px) {
+    body {
+        max-width: 100%;
+        width: 100%;
+    }
+    .list-item-inline {
+        display: inline;
+        padding: 0rem;
+    }
+    .container-center {
+        width: auto;
+    }
+    .link-primary {
+        display: block;
+    }
+    .btn-S {
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: var(--primary-color);
+        position: center;
+        transition: all 0.5s;
+        z-index: 1;
+        display: inline;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-weight: 900;
+    }
+    .btn-S:hover {
+        color: black;
+    }
+    .nameSocial {
+        font-size: 15px;
+        font-weight: 100;
+        display: flex;
+        flex-direction: column;
+    }
 }
