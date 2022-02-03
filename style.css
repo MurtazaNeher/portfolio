@@ -102,7 +102,7 @@ h1 {
 .navigation {
     /* background-color: var(--primary-color); */
     color: #234567;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-bottom-left-radius: 1rem;
     box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.4);
     /* position: fixed; */
@@ -114,6 +114,7 @@ h1 {
     font-size: 18px;
     /* margin-top: 0.3rem; */
     margin-left: 0.8rem;
+    padding-top: 0.5rem;
 }
 
 .nav-brand a {
