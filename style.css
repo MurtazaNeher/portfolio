@@ -103,10 +103,13 @@ h1 {
     /* background-color: var(--primary-color); */
     color: #234567;
     /* padding: 1rem; */
-    border-bottom-left-radius: 1rem;
-    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.4);
+    /* border-bottom-left-radius: 1rem; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     /* position: fixed; */
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
+    /* border-bottom: 3px solid var(--primary-color); */
+    /* border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--font-color); */
 }
 
 .navigation .nav-brand {
@@ -139,22 +142,22 @@ h1 {
 .divPrimaryColor {
     background-color: var(--primary-color);
     height: 0.3em;
-    border-radius: 90em;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    /* border-radius: 90em; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .divWhiteColor {
     background-color: white;
     height: 0.1em;
-    border-radius: 90em;
+    /* border-radius: 90em; */
 }
 
 .divFontColor {
     background-color: var(--font-color);
     height: 0.2em;
-    border-radius: 90em;
+    /* border-radius: 90em; */
     /* margin-bottom: 1rem; */
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 
