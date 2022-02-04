@@ -334,19 +334,6 @@ h1 {
     background: none;
 }
 
-#btn-Nav:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 50px;
-    background: white;
-    width: 40px;
-    height: 40px;
-    transition: all 0.3s ease;
-}
-
 #btn-Nav span {
     position: relative;
     font-family: "Ubuntu", sans-serif;
@@ -354,36 +341,6 @@ h1 {
     font-weight: 700;
     letter-spacing: 0.03em;
     color: #234567;
-}
-
-#btn-Nav svg {
-    position: relative;
-    top: 0;
-    margin-left: 1px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #ea580c;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-#btn-Nav:hover:before {
-    width: 100%;
-    background: white;
-    cursor: pointer;
-}
-
-#btn-Nav:hover svg {
-    transform: translateX(0);
-    cursor: pointer;
-}
-
-#btn-Nav:active {
-    transform: scale(0.95);
-    cursor: pointer;
 }
 
 
