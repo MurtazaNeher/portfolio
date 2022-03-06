@@ -299,17 +299,32 @@
 /* Footer */
 
 #footer {
-    margin: 0px;
-}
-
-#footer div {
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 10px;
     font-family: var(--primary-font);
     font-size: 14px;
-    width: 100%;
-    margin: 0px;
+}
+
+#connect-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#connect-ul li {
+    margin: 20px 30px;
+}
+
+#connect-ul li a {
+    padding: 5px 10px;
+    color: white;
+}
+
+#connect #connect-heading {
+    font-size: 17px;
 }
 
 
