@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap');
+:root {
+    --primary-color: #4caf50;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+    --font-color: #234567;
+    --primary-font: 'Baloo Bhai 2', cursive;
+    --secondary-font: 'Bree Serif', serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b1b;
+    font-family: var(--secondary-font);
+    text-align: center;
+    background: url('images/bg04.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.primary-heading {
+    font-size: 54px;
+    font-family: var(--secondary-font);
+    padding: 10px 20px;
+}
+
+.date {
+    font-size: 16px;
+    padding: 10px 10px;
+    font-family: var(--primary-font);
+}
+
+.description-secondary {
+    font-size: 16px;
+    padding: 10px 10px;
+    font-family: var(--primary-font);
+}
+
+
+/* navigation bar */
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    box-shadow: 03px 4px 8px 0 rgba(0, 0, 0, .4);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #333;
+    font-family: var(--primary-font);
+    border-top: 2px solid var(--primary-color);
+}
+
+#navbar ul #nav-brand {
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+}
+
+#navbar ul li {
+    border-right: 1px solid white;
+}
+
+#navbar ul li:first-child {
+    border: none;
+}
+
+#navbar ul li:last-child {
+    border: none;
+}
+
+#navbar ul li a {
+    padding: 5px 25px;
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    background-color: black;
+}
+
+.link-active {
+    background-color: var(--primary-color);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-heading {
+    margin: 40px 30px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+#connect-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#connect-ul li {
+    margin: 20px 40px;
+}
+
+#connect-ul li a i {
+    padding: 5px 10px;
+}
+
+#connect #connect-heading {
+    font-size: 20px;
+}

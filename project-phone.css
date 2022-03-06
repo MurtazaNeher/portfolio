@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap');
+:root {
+    --primary-color: #4caf50;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+    --font-color: #234567;
+    --primary-font: 'Baloo Bhai 2', cursive;
+    --secondary-font: 'Bree Serif', serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.center {
+    text-align: center;
+}
+
+.primary-heading {
+    font-size: 54px;
+    font-family: var(--secondary-font);
+    padding: 8px 10px;
+}
+
+.date {
+    font-size: 16px;
+    padding: 5px 8px;
+    font-family: var(--primary-font);
+}
+
+.description-primary {
+    font-size: 18px;
+    padding: 2px 3px;
+    font-family: var(--primary-font);
+}
+
+.description-secondary {
+    font-size: 15px;
+    padding: 10px 10px;
+    font-family: var(--primary-font);
+}
+
+
+/* navigation bar */
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    box-shadow: 03px 4px 8px 0 rgba(0, 0, 0, .4);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #333;
+    font-family: var(--primary-font);
+    border-top: 2px solid var(--primary-color);
+}
+
+#navbar ul #nav-brand {
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+}
+
+#navbar ul li {
+    border-right: 1px solid white;
+}
+
+#navbar ul li:first-child {
+    border: none;
+}
+
+#navbar ul li:last-child {
+    border: none;
+}
+
+#navbar ul li a {
+    padding: 5px 5px;
+    font-size: 17px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    background-color: black;
+}
+
+.link-active {
+    background-color: var(--primary-color);
+}
+
+
+/* Header */
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 270px;
+    z-index: -1;
+    background: url('images/bg02.jpg') center center/cover;
+    opacity: 0.89;
+}
+
+.header {
+    height: 250px;
+    padding: 20px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header-heading {
+    padding-bottom: 30px;
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    color: white;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, .4);
+}
+
+.header-secondary-heading {
+    padding-bottom: 30px;
+    font-family: var(--secondary-font);
+    font-size: 30px;
+    color: black;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header ul li a {
+    padding: 20px 34px;
+    color: var(--primary-color);
+    margin: 20px 20px;
+}
+
+.header ul li a:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+
+/* Project Section */
+
+#projects-container {
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 30px;
+}
+
+
+/* #projects-container h1 {
+    color: white;
+} */
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+#projects .box {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    border: 2px solid black;
+    align-items: center;
+    background-color: var(--off-white);
+    font-family: var(--primary-font);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: max-content;
+    padding: 10px 5px;
+    /* background: url('images/bg03.jpg'); */
+    color: black;
+}
+
+#projects .box .project-images {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+}
+
+#projects .box:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    border: 2px solid var(--primary-color);
+}
+
+#projects .box img {
+    width: 138px;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+.project-name {
+    font-size: 30px;
+}
+
+.date {
+    font-family: var(--secondary-font);
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: var(--primary-font);
+    font-size: 14px;
+}
+
+#connect-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#connect-ul li {
+    margin: 20px 30px;
+}
+
+#connect-ul li a {
+    padding: 5px 10px;
+    color: white;
+}
+
+#connect #connect-heading {
+    font-size: 17px;
+}

@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murtaza | Projects</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="project.css" rel="stylesheet" />
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="project-phone.css" />
+
     <script src="https://kit.fontawesome.com/ccbe6a25e7.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href='images/favicon03.png'>
 
@@ -15,368 +17,213 @@
 
 <body>
 
-    <ul class="nav-ul">
+    <nav id="navbar">
+        <ul class="nav-ul">
 
-        <li class="nav-li">
+            <li id="nav-brand">
 
-            <a class="nav-li nav-a nav-brand"> Murtaza Neher Wala</a>
-        </li>
-
-
-        <li class="nav-li" style="float:right">
-
-            <a class="nav-li nav-a" href="blogs.html">Blogs</a>
-
-        </li>
+                <a href="#">Murtaza Neher Wala</a>
+            </li>
 
 
-        <li class="nav-li" style="float:right">
-
-            <a class="nav-li nav-a nav-active" href="projects.html">Projects</a>
-
-        </li>
-
-        <li class="nav-li" style="float:right">
-
-            <a class="nav-li nav-a" href="/">Home</a>
-        </li>
+            <li><a href="index.html">Home</a></li>
+            <li class="link-active">
+                <a href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a href="blogs.html">Blogs</a>
+            </li>
 
 
-    </ul>
-    <div class="separation"></div>
+        </ul>
+    </nav>
 
 
-    <header>
-        <h1 class="hero-heading" style="margin-top: 2rem; text-align:center; margin-bottom: 0rem;"><span style="color: var(--font-color);">see my</span> <span style="color:var(--primary-color);">projects</span> <span style="color: var(--font-color);"> \ </span><span style="color:var(--primary-color);">codes</span></h1>
 
-        <!-- <h2>Uploading soon...</h2> -->
+    <header class="header">
+        <h1 id="header-heading">See my Projects \ Codes</h1>
     </header>
 
-    <ul class="list-non-bullet">
 
-        <li>
-            <article class="showcase-list container container-center ow">
-                <h1>
-                    Gym Website </h1>
-                <small>March, 2022</small>
-                <p>
-                    This is a comercial website for gyms , which shows the gyms services and its all information.This website is fully responsive and will easily runs in any device.
-                </p>
-                <p style="font-size: 15px;">
-                    This web site is build using HTML and CSS.
+    <section id="projects-container">
 
-                </p>
+        <div id="projects">
 
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://powerupgym.netlify.app/'">Try
-            Now</button>
+            <div class="box" onclick=window.location.href="https://powerupgym.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/gymweb.png" alt="" srcset="">
+                    <img src="images/projeccts/gymweb02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
+                <h2 class="project-name">Gym Website</h2>
+                <p class="date">March, 2022</p>
+                <p class="description-primary">This is a comercial website for gyms , which shows the gyms services and its all information.This website is fully responsive and will easily runs in any device.</p>
+                <p class="description-secondary">This web site is build using HTML and CSS.</p>
+            </div>
 
-        <li>
-            <article class="showcase-list container container-center">
-                <h1>
-                    🪄 Predictor 2.0 🪄 </h1>
-                <small>February, 2022</small>
-                <p>
-                    This is version 2 of Predictor . Must check this out for amazing mind number reading experience.
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.
 
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='http://predictor-2-murtaza.netlify.app/'">Try
-            Now</button>
+            <div class="box" onclick=window.location.href="https://predictor-2-murtaza.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/predictor2.0.png" alt="" srcset="">
+                    <img src="images/projeccts/predictor202.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
+                <h2 class="project-name">Predictor 2.0</h2>
+                <p class="date">February, 2022</p>
+                <p class="description-primary">This is version 2 of Predictor . Must check this out for amazing mind number reading experience.</p>
+                <p class="description-secondary">This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.</p>
+            </div>
 
-        <li>
-            <article class="showcase-list container container-center ow">
-                <h1>
-                    Stock Profit-Loss Calculator</h1>
-                <small>February, 2022</small>
-                <p>
-                    A web app which calculates profit and loss on stocks on which you invested. It also displays profit percent and loss percent.
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.
 
-                </p>
 
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://stock-profit-loss-murtaza.netlify.app/'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://stock-profit-loss-murtaza.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/stocks.png" alt="" srcset="">
+                    <img src="images/projeccts/stock02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
+                <h2 class="project-name">Stock Profit-Loss Calculator</h2>
+                <p class="date">February, 2022</p>
+                <p class="description-primary">A web app which calculates profit and loss on stocks on which you invested. It also displays profit percent and loss percent.</p>
+                <p class="description-secondary">This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.</p>
+            </div>
 
-
-        <li>
-            <article class="showcase-list container container-center ">
-                <h1>
-                    Fun with Triangles</h1>
-                <small>February, 2022</small>
-                <p>
-                    This web app helps you to learn about Triangle in amazing way. Also by this web app you can calculate Hypotenuse and area and also check its properties.
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.
-
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://fun-with-triangles-murtaza.netlify.app/'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://fun-with-triangles-murtaza.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/triangle.png" alt="" srcset="">
+                    <img src="images/projeccts/triangle02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
+                <h2 class="project-name">Fun With Triangles</h2>
+                <p class="date">February, 2022</p>
+                <p class="description-primary">This web app helps you to learn about Triangle in amazing way. Also by this web app you can calculate Hypotenuse and area and also check its properties.</p>
+                <p class="description-secondary">This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.</p>
+            </div>
 
-        <li>
-            <article class="showcase-list container container-center ow">
-                <h1>
-                    Lucky Numbers</h1>
-                <small>February, 2022</small>
-                <p>
-                    If you are also searching for a number which would be lucky for you ? This web app helps you to find your lucky number.
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.
-
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://lucky-number-murtaza.netlify.app/'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://lucky-number-murtaza.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/lucky.png" alt="" srcset="">
+                    <img src="images/projeccts/lucky02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
+                <h2 class="project-name">Lucky Numbers</h2>
+                <p class="date">February, 2022</p>
+                <p class="description-primary">If you are also searching for a number which would be lucky for you ? This web app helps you to find your lucky number.</p>
+                <p class="description-secondary">This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.</p>
+            </div>
 
-        <li>
-            <article class="showcase-list container container-center">
-                <h1>
-                    Cash-register-manager</h1>
-                <small>February, 2022</small>
-                <p>
-                    A cash register manager which helps the user by telling how can he/she return the change to the customer with minimum number of notes. <br/>This is basically the simple version of apps which are used in huge shopping malls and stores
-                    for returning change.
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.
-
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://murtaza-cash-register.netlify.app/'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://murtaza-cash-register.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/cashregister.png" alt="" srcset="">
+                    <img src="images/projeccts/cash02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
-
-        <li>
-            <article class="showcase-list container container-center ow">
-                <h1>
-                    Thats my flag!!!</h1>
-                <small>February, 2022</small>
-                <p>
-                    Do you want to see the flags of different countries? So this web app is for you. In this web app you can search the flags by the name of country and also see the flags by click on country names.
-                    <br />You can also download the flags in png/jpg format.
+                <h2 class="project-name">Cash-Register-Manager</h2>
+                <p class="date">February, 2022</p>
+                <p class="description-primary">A cash register manager which helps the user by telling how can he/she return the change to the customer with minimum number of notes. This is basically the simple version of apps which are used in huge shopping malls and stores for returning
+                    change.
                 </p>
-                <p style="font-size: 15px;">
-                    This web app is build using React ,Java Script (JSX) and designed using HTML & CSS. Images are used in png & jpg form.
-                </p>
+                <p class="description-secondary">This is a web app build using Vanila JS (Java Script). HTML and CSS is used for designing.</p>
+            </div>
 
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://csb-3uv3t.netlify.app/'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://csb-3uv3t.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/flag.png" alt="" srcset="">
+                    <img src="images/projeccts/flag02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
-
-        <li>
-            <article class="showcase-list container container-center ">
-                <h1>
-                    Emojipedia </h1>
-                <small>February, 2022</small>
-                <p>
-                    I struggle with understanding the emojis. Do you too? If yes, then see this library of emojis with meaning.
+                <h2 class="project-name">Thats My Flag!!!</h2>
+                <p class="date">February, 2022</p>
+                <p class="description-primary">Do you want to see the flags of different countries? So this web app is for you. In this web app you can search the flags by the name of country and also see the flags by click on country names. You can also download the flags in png/jpg
+                    format.
                 </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using React ,Java Script (JSX) and designed using HTML & CSS.
-                </p>
+                <p class="description-secondary">This web app is build using React ,Java Script (JSX) and designed using HTML & CSS. Images are used in png & jpg form.</p>
+            </div>
 
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://csb-36rbl.netlify.app/'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://csb-36rbl.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/emoji.png" alt="" srcset="">
+                    <img src="images/projeccts/emoji02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
+                <h2 class="project-name">Emojipedia</h2>
+                <p class="date">February, 2022</p>
+                <p class="description-primary">I struggle with understanding the emojis. Do you too? If yes, then see this library of emojis with meaning.</p>
+                <p class="description-secondary">This is a web app build using React ,Java Script (JSX) and designed using HTML & CSS.</p>
+            </div>
 
-
-        <li>
-            <article class="showcase-list container container-center ow">
-                <h1>
-                    🪄 Predictor 🪄 </h1>
-                <small>January, 2022</small>
-                <p>
-                    Want to see some mind reading tricks , try this app once . It will definately amaze you :)
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using React ,Java Script (JSX) and designed using HTML & CSS.
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://csb-sulmw.netlify.app/'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://csb-sulmw.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/predictor.png" alt="" srcset="">
+                    <img src="images/projeccts/predictor02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
-
-        <li>
-            <article class="showcase-list container container-center ">
-                <h1> Shakespeare's Voice
-
-                </h1>
-
-                <small>January, 2022</small>
-                <p>
-                    Shakespeare invented many words and his style of narration in many ways was unique to his time. This translator takes English as input and converts to Shakespeare English.
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using Vanila JS (Java Script). For translation process, API is used .
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://murtazanw-shekspeare-translator.netlify.app/'">Try
-            Now
-          </button>
+                <h2 class="project-name">Predictor</h2>
+                <p class="date">January, 2022</p>
+                <p class="description-primary">Want to see some mind reading tricks , try this app once . It will definately amaze you :)</p>
+                <p class="description-secondary">This is a web app build using React ,Java Script (JSX) and designed using HTML & CSS.</p>
+            </div>
 
 
 
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://murtazanw-shekspeare-translator.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/shakespear.png" alt="" srcset="">
+                    <img src="images/projeccts/shelspear02.png" alt="" srcset="">
                 </div>
-
-            </article>
-        </li>
-
-        <li>
-            <article class="showcase-list container container-center ow">
-                <h1>Funny Language Translator
-
-                </h1>
-
-                <small>January, 2022</small>
-                <p>
-                    Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language
-                </p>
-                <p style="font-size: 15px;">
-                    This is a web app build using Vanila JS (Java Script). For translation process, API is used .
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://murtazanw-minion.netlify.app/'">Try
-            Now
-          </button>
+                <h2 class="project-name">Shakespeare's Voice</h2>
+                <p class="date">January, 2022</p>
+                <p class="description-primary">Shakespeare invented many words and his style of narration in many ways was unique to his time. This translator takes English as input and converts to Shakespeare English.</p>
+                <p class="description-secondary">This is a web app build using Vanila JS (Java Script). For translation process, API is used .</p>
+            </div>
 
 
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://murtazanw-minion.netlify.app/">
+                <div class="project-images">
+                    <img src="images/projeccts/minion.png" alt="" srcset="">
+                    <img src="images/projeccts/minion02.png" alt="" srcset="">
                 </div>
+                <h2 class="project-name">Funny Language Translator</h2>
+                <p class="date">January, 2022</p>
+                <p class="description-primary">Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
+                <p class="description-secondary">This is a web app build using Vanila JS (Java Script). For translation process, API is used .</p>
+            </div>
 
-            </article>
-        </li>
 
-        <li>
-            <article class="showcase-list container container-center">
-                <h1>how well do you know me?</h1>
-                <small>December, 2021</small>
-                <p>
-                    A CLI app built with nodeJS. You can send this to your friends and find out who really knows you.
-                </p>
-
-                <div style="text-align: center;">
-                    <button id="btn-Primary" onclick="window.location.href='https://replit.com/@MurtazaNeher/quiz?embed=true#index.js'">Try
-            Now</button>
-
-                    <!-- <button id="btn-Secondary" onclick="window.location.href='https://github.com/MurtazaNeher/Banana-Speak'">View Source</button> -->
+            <div class="box" onclick=window.location.href="https://replit.com/@MurtazaNeher/quiz?embed=true#index.js">
+                <div class="project-images">
+                    <img src="images/projeccts/quiz.png" alt="" srcset="">
+                    <img src="images/projeccts/quiz02.png" alt="" srcset="">
                 </div>
-            </article>
-        </li>
-        <div class="divFontColor"></div>
-
-        <div class="divWhiteColor"></div>
-
-        <div class="divPrimaryColor"></div>
+                <h2 class="project-name">How Well Do You Know Me?</h2>
+                <p class="date">December, 2021
+                </p>
+                <p class="description-primary">A CLI app built with nodeJS. You can send this to your friends and find out who really knows you.</p>
+            </div>
 
 
-        <footer class="footer">
+
+        </div>
 
 
-            <div class="footer-header">Connect with me socially</div>
-            <ul class="social-links">
-                <li class="list-item-inline">
-
-                    <!-- 
-                    <a class="link"
-                    href="https://www.instagram.com/murtaza_neher_wala/?utm_medium=copy_link">instagram</a> -->
-
-                    <button class="btn-S" onclick="window.location.href='https://www.instagram.com/murtaza_neher_wala/?utm_medium=copy_link'">
-                        <i class="fab fa-instagram" style=" font-size: 35px ; "></i> <a class = "nameSocial">Intagram </a></span>
-                    </button>
-
-                </li>
-
-                <li class="list-item-inline">
+    </section>
 
 
-                    <button class="btn-S" onclick="window.location.href='https://twitter.com/Murtaza_neher?t=KjQ1giMXozsd4enZDMxNYg&s=03'">
-    
-                        <i  class="fab fa-twitter" style=" font-size: 35px ;"></i>  <a class = "nameSocial">Twitter </a>
-                       
-                    </button>
 
+    <footer id="footer">
+
+
+        <section id="connect">
+            <div id="connect-heading" class="center">Connect with me socially</div>
+            <ul id="connect-ul">
+
+                <li><a href="https://www.instagram.com/murtaza_neher_wala/?utm_medium=copy_link" target="_blank"><i class="fab fa-2x fa-instagram"></i></a></li>
+
+                <li><a href="https://github.com/MurtazaNeher" target="_blank"><i class="fab fa-2x fa-github" ></i></a></li>
+
+                <li>
+                    <a href="https://twitter.com/Murtaza_neher?t=KjQ1giMXozsd4enZDMxNYg&s=03" target="_blank"> <i class="fab fa-2x fa-twitter"></i></a>
                 </li>
 
 
-
-                <li class="list-item-inline">
-
-                    <button class="btn-S" onclick="window.location.href='https://github.com/MurtazaNeher'">
-    
-                        <i class="fab fa-github" style="font-size: 35px;"></i>  <a class = "nameSocial">Github </a>
-                       
-                    </button>
-
-
-                </li>
-
-                <li class="list-item-inline">
-
-                    <button class="btn-S" onclick="window.location.href='https://api.whatsapp.com/send?phone=+917987550997&text=Hello%20Murtaza'">
-    
-                        <i class="fab fa-whatsapp" style="font-size: 35px;"></i>  <a class = "nameSocial">Whatsapp</a>
-                        
-                    </button>
-                </li>
             </ul>
-        </footer>
+        </section>
+        <div class="center">
+            Copyright &copy; Murtaza Neher Wala. All rights reserved!
+        </div>
+
+    </footer>
 
 
 </body>
