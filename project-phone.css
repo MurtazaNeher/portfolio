@@ -165,7 +165,7 @@ body {
     justify-content: center;
     text-align: center;
     margin: 20px auto;
-    padding: 10px 30px;
+    padding: 10px 25px;
 }
 
 
@@ -196,7 +196,7 @@ body {
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.8);
     width: 400px;
     height: max-content;
-    padding: 10px 5px;
+    padding: 10px auto;
     /* background: url('images/bg03.jpg'); */
     color: black;
 }
