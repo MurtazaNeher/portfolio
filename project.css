@@ -86,7 +86,7 @@ body {
 }
 
 #navbar ul li a {
-    padding: 5px 25px;
+    padding: 9px 25px;
     font-size: 19px;
     display: block;
     color: white;
@@ -245,9 +245,14 @@ body {
     margin: 20px 40px;
 }
 
-#connect-ul li a {
+#connect-ul li a i {
     padding: 5px 10px;
     color: white;
+}
+
+#connect-ul li a i:hover {
+    background-color: #333;
+    border-radius: 6px;
 }
 
 #connect #connect-heading {
