@@ -74,7 +74,7 @@ body {
 }
 
 #navbar ul li a {
-    padding: 5px 25px;
+    padding: 9px 25px;
     font-size: 19px;
     display: block;
     color: white;
@@ -92,7 +92,7 @@ body {
 
 /* Header */
 
-.header::before {
+.header-container::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -104,13 +104,19 @@ body {
     opacity: 0.89;
 }
 
-.header {
+.header-container {
     height: 550px;
     padding: 20px 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.header-container img {
+    width: 400px;
+    position: absolute;
+    left: 100px;
 }
 
 #header-heading {
@@ -125,7 +131,7 @@ body {
     padding-bottom: 30px;
     font-family: var(--secondary-font);
     font-size: 30px;
-    color: black;
+    color: white;
 }
 
 .header ul {
@@ -244,11 +250,6 @@ body {
     padding: 10px 30px;
 }
 
-
-/* #projects-container h1 {
-    color: white;
-} */
-
 #projects {
     display: flex;
     flex-direction: row;
@@ -262,7 +263,7 @@ body {
 
 #projects .box {
     margin: 10px auto;
-    border: 2px solid black;
+    border: 2px solid gray;
     align-items: center;
     background-color: black;
     color: var(--primary-color);
@@ -291,6 +292,16 @@ body {
 
 #projects-container .btn-primary {
     margin: auto;
+}
+
+#projects-container .btn-secondary {
+    margin: auto;
+    font-size: 18px;
+    width: fit-content;
+}
+
+#projects-container .btn-secondary:hover {
+    border-radius: 30px;
 }
 
 
