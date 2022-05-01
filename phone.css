@@ -258,16 +258,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
-    overflow: auto;
-    white-space: nowrap;
+    flex-wrap: wrap;
+    /* overflow: auto;
+    white-space: nowrap; */
     justify-content: space-between;
     align-items: center;
     margin: 30px auto;
 }
 
 #projects .box {
-    margin: 10px 30px;
+    margin: 10px auto;
     border: 2px solid gray;
     align-items: center;
     background-color: black;
